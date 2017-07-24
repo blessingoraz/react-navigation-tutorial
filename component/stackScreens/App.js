@@ -1,9 +1,9 @@
 import React from 'react';
 
 import { StackNavigator } from 'react-navigation';
-import ScreenOne from './stackScreens/ScreenOne';
-import ScreenTwo from './stackScreens/ScreenTwo';
-import ScreenThree from './stackScreens/ScreenThree';
+import ScreenOne from './ScreenOne';
+import ScreenTwo from './ScreenTwo';
+import ScreenThree from './ScreenThree';
 
 const App = StackNavigator({
     ScreenOne: { screen: ScreenOne},

@@ -9,6 +9,6 @@ import {
   AppRegistry
 } from 'react-native';
 
-import App from './component/App';
+import App from './component/tabBarScreens/App';
 
 AppRegistry.registerComponent('reactNav', () => App);
